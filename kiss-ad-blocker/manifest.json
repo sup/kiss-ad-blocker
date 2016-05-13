@@ -1,9 +1,9 @@
 {
   "name": "Kiss* Ad Blocker",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Ad blocker for Kiss* sites (kissanime, kisscartoon, kissmanga, kissasian, etc)",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "http://github.com/sup/kiss-ad-blocker",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -12,7 +12,13 @@
   "default_locale": "en",
   "permissions": [
     "https://kissanime.to/*",
-    "https://kisscartoon.me/*"
+    "https://kisscartoon.me/*",
+    "https://kissmanga.com/*",
+    "https://kissasian.com/*",
+    "http://kissanime.to/*",
+    "http://kisscartoon.me/*",
+    "http://kissmanga.com/*",
+    "http://kissasian.com/*"
   ],
   "content_scripts": [
     {
@@ -20,6 +26,10 @@
         "https://kissanime.to/*",
         "https://kisscartoon.me/*",
         "https://kissmanga.com/*",
+        "https://kissasian.com/*",
+        "http://kissanime.to/*",
+        "http://kisscartoon.me/*",
+        "http://kissmanga.com/*",
         "http://kissasian.com/*"
       ],
       "js": [
