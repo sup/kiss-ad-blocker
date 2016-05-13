@@ -1,6 +1,6 @@
 {
   "name": "Kiss* Ad Blocker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Ad blocker for Kiss* sites (kissanime, kisscartoon, kissmanga, kissasian, etc)",
   "homepage_url": "http://github.com/sup/kiss-ad-blocker",
