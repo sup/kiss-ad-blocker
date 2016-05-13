@@ -9,7 +9,7 @@ chrome.extension.sendMessage({}, function(response) {
       hideSidebar();
 
       // Hide hideabe ads with a small offset to avoid Kiss* ad block detection
-      setTimeout(hideSimple, 1000);
+      setTimeout(hideSimple, 2000);
     }
   }, 10);
 });
